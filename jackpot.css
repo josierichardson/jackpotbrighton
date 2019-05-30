@@ -1,8 +1,9 @@
 
 @font-face {
     font-family: 'jackpotregular';
-    src: url('font/jackpot-regular-webfont.woff2') format('woff2'),
-         url('font/jackpot-regular-webfont.woff') format('woff');
+    src: url('font/jackpot-regular_3-webfont.woff2') format('woff2'),
+		 url('font/jackpot-regular_3-webfont.woff') format('woff'),
+		 url('font/jackpot-regular_3-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -17,9 +18,12 @@ body {
 
 
  #con {
+
 	min-height:100%;
-	position: fixed;
+	
  }
+
+
  #content {
 	height: 1000px; /* Changed this height */
 	padding-bottom:60px;
@@ -86,11 +90,6 @@ a, u {
 	color: black;
 }
 
-/* a:hover {
-	
-	color: #D7FC39;
-} */
-
 .colourone:hover {
 	color: #8BDADC;
 }
@@ -103,18 +102,16 @@ a, u {
 	color: #40A05D;
 }
 
-@media screen(max-width: 800px;){
+/* @media screen(max-width: 800px;){
 	main {
 		flex-direction: column;
 		
 		flex-wrap: nowrap;
 	}
 
-}
+} */
 
 .bottom {
-
-
   
 	text-align: center;
   
@@ -124,5 +121,18 @@ a, u {
 
 	width: 100%; 
 	
+	padding: 20px;
 
-  }
+	}
+	
+	@media screen and (max-device-width: 480px) {
+		h1 { font-size: 3em;
+		}
+
+		h2 { font-size: 1.2em;
+		}
+	
+	}
+
+
+	
